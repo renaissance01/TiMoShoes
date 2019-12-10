@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 09, 2019 lúc 11:21 AM
+-- Thời gian đã tạo: Th12 10, 2019 lúc 04:56 AM
 -- Phiên bản máy phục vụ: 10.3.16-MariaDB
 -- Phiên bản PHP: 7.3.6
 
@@ -205,7 +205,8 @@ INSERT INTO `product` (`id`, `product_code`, `name`, `slug`, `price`, `featured`
 (11, 'SF02', 'Giày Thể Thao Van.s Old Skool Vải Lửa SF', 'giay-the-thao-vans-old-skool-vai-lua-sf', '250000', 0, 1, 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'iaFBIzPKR.jpg', 4, '2019-12-06 02:32:51', '2019-12-06 02:32:51'),
 (12, '1098', 'Giày Thể Thao TiMo 1098', 'giay-the-thao-timo-1098', '480000', 0, 1, 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'XRth4ToVX.jpg', 4, '2019-12-06 02:41:26', '2019-12-06 02:43:08'),
 (13, '1112', 'Giày Thể Thao TiMo 1112', 'giay-the-thao-timo-1112', '360000', 1, 1, 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'qTBcoWCof.jpg', 4, '2019-12-06 02:42:37', '2019-12-06 02:42:37'),
-(14, 'MSF02', 'Giày Thể Thao TiMo Adi.das Alphabounce beyond F1', 'giay-the-thao-timo-adidas-alphabounce-beyond-f1', '360000', 0, 1, 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'RbRNas4Ks.jpg', 4, '2019-12-06 02:44:49', '2019-12-06 02:44:49');
+(14, 'MSF02', 'Giày Thể Thao TiMo Adi.das Alphabounce beyond F1', 'giay-the-thao-timo-adidas-alphabounce-beyond-f1', '360000', 0, 1, 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'RbRNas4Ks.jpg', 4, '2019-12-06 02:44:49', '2019-12-06 02:44:49'),
+(15, 'A87', 'Giày Thể Thao TiMo A87', 'giay-the-thao-timo-a87', '360000', 0, 1, 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', 'Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.', '13ZwmQ0GN.jpg', 4, '2019-12-09 20:55:30', '2019-12-09 20:55:30');
 
 -- --------------------------------------------------------
 
@@ -229,7 +230,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `full`, `address`, `phone`, `level`, `remember_token`) VALUES
-(1, 'admin@gmail.com', '$2y$10$uyaMD7.kPzP.lDxBK88gHuKiarvjlckGsR3zTnl7UKRuDSjA89xMe', 'vietpro', 'Thường tín', '0356653301', 1, NULL),
+(1, 'admin@gmail.com', '$2y$10$uyaMD7.kPzP.lDxBK88gHuKiarvjlckGsR3zTnl7UKRuDSjA89xMe', 'vietpro', 'Thường tín', '0356653301', 1, 'JEnmIvVcp91fHOFAoSF8FK2AbmTpE0kdAU5PjXRYyCzNOq1N33ESyDXZyAWZ'),
 (2, 'zimpro@gmail.com', '$2y$10$GkwIjFOwRGwxMscBDuad1.39TbnGbn298DNVLXbAQL9Fc6gOtRWCm', 'Nguyễn thế vũ', 'Bắc giang', '0356654487', 2, NULL),
 (3, 'phucnguyenthe0809@gmail.com', '$2y$10$rAXbEvR/3KrJC9o5bI2EJeOCacvPMef6q8xlMOJBxaFR1.PhDKz0O', 'Nguyễn thế phúc', 'Huế', '0352264487', 1, NULL),
 (4, 'zimpro9x@gmail.com', '$2y$10$C7BrmBbBgdT1TeSTrDEtwO8nNd1Uwnn6IHoJisWbX9YoLEX5eITOO', 'Nguyễn Văn Công', 'Nghệ An', '0357846659', 2, NULL);
@@ -345,7 +346,17 @@ INSERT INTO `values_product` (`values_id`, `product_id`) VALUES
 (3, 14),
 (7, 14),
 (8, 14),
-(4, 14);
+(4, 14),
+(1, 15),
+(2, 15),
+(3, 15),
+(7, 15),
+(8, 15),
+(9, 15),
+(10, 15),
+(11, 15),
+(12, 15),
+(13, 15);
 
 -- --------------------------------------------------------
 
@@ -451,7 +462,17 @@ INSERT INTO `variant` (`id`, `price`, `product_id`) VALUES
 (99, '490000', 14),
 (100, '490000', 14),
 (101, '490000', 14),
-(102, '490000', 14);
+(102, '490000', 14),
+(103, '360000', 15),
+(104, '360000', 15),
+(105, '360000', 15),
+(106, '360000', 15),
+(107, '360000', 15),
+(108, '360000', 15),
+(109, '360000', 15),
+(110, '360000', 15),
+(111, '360000', 15),
+(112, '360000', 15);
 
 -- --------------------------------------------------------
 
@@ -644,7 +665,17 @@ INSERT INTO `variant_values` (`variant_id`, `values_id`) VALUES
 (101, 7),
 (101, 4),
 (102, 8),
-(102, 4);
+(102, 4),
+(103, 1),
+(104, 2),
+(105, 3),
+(106, 7),
+(107, 8),
+(108, 9),
+(109, 10),
+(110, 11),
+(111, 12),
+(112, 13);
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -777,7 +808,7 @@ ALTER TABLE `order`
 -- AUTO_INCREMENT cho bảng `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
@@ -795,7 +826,7 @@ ALTER TABLE `values`
 -- AUTO_INCREMENT cho bảng `variant`
 --
 ALTER TABLE `variant`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
