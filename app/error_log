@@ -1,0 +1,1 @@
+[07-Dec-2019 21:42:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/sieuhack/public_html/app/User.php on line 9
